@@ -1,0 +1,87 @@
+What is HTML?
+
+HTML = HyperText Markup Language
+It is the structure of a webpage (headings, paragraphs, links, images, etc.)
+Uses tags inside angle brackets (< >).
+
+It is a mark up language as it was used for wroting documents where styles like bold thingy were done through markup tags.
+
+Basic code...
+title, favicon
+
+tags:
+h1, h2...
+p
+div 
+span
+a
+img
+ul,li
+button
+input
+
+CSS:
+font, color, radius border,hover,padding,margin,font styles, flex, block ,shadow
+
+Bootstrap:
+Navbar
+navbar → Navbar container
+navbar-expand-lg → Expand on large screens
+navbar-dark → Dark text for light backgrounds
+bg-primary → Blue background
+shadow-sm → Small shadow
+p-3 → Padding
+
+Hero Section
+container → Centers content & adds horizontal padding
+text-center → Center-align text
+fw-bold → Bold font
+lead → Slightly larger, lighter text
+my-5 → Vertical margin top & bottom
+btn btn-primary btn-lg → Large primary button
+mt-3 → Top margin
+
+Cards / Tutorials
+row → Bootstrap row
+g-4 → Gap between columns
+col-sm-6 col-md-4 col-lg-3 → Responsive column widths
+card → Card container
+flex-fill → Fill available height
+shadow-sm → Small shadow
+d-flex flex-column → Column layout inside card
+card-img-top → Image at top of card
+text-truncate → Truncate long text
+mt-auto → Push button to bottom
+mb-2 → Bottom margin
+text-muted → Gray text
+
+Footer
+bg-primary → Blue background
+text-white → White text
+text-center → Center text
+p-3 → Padding
+mt-5 → Top margin
+
+Buttons
+btn → Bootstrap button
+btn-outline-light → Light outlined button
+btn-light → White button
+text-primary → Blue text
+fw-semibold → Semi-bold text
+
+
+Javascript:
+basic js
+what is js
+variable initalization
+arethmatic operators
+branching
+looping
+functions
+arrays/lists
+dom manipulation
+asynchronous programing
+
+
+
+
