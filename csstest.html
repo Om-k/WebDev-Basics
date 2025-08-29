@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flower Shop</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Internal CSS -->
+    <style>
+      /* Internal CSS for section styling */
+      .intro-text {
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+        color: #333;
+      }
+    
+    </style>
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <header class="hero">
+      <h1
+        style="
+          color: white;
+          text-shadow: 3px 2px 22px black;
+          font-size: xxx-large;
+          margin-bottom: 0px;
+        "
+      >
+        Welcome to Blossom Boutique
+      </h1>
+      <p style="color: white; text-shadow: 1px 1px 4px black">
+        Fresh Flowers Delivered to Your Doorstep
+      </p>
+    </header>
+
+    <!-- Container for intro and form -->
+    <div class="container">
+      <!-- Intro Section -->
+      <section class="intro-text">
+        <p>
+          Discover the beauty of nature with our exquisite collection of seasonal
+          flowers. Perfect for every occasion!
+        </p>
+      </section>
+
+      <!-- Form Section -->
+      <section class="form-section">
+        <h2>Place Your Order</h2>
+        <form id="orderForm">
+          <input type="text" name="name" placeholder="Your Name" required /><br />
+          <input
+            type="email"
+            name="email"
+            placeholder="Your Email"
+            required
+          /><br />
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </div>
+
+    <!-- Script -->
+    <script>
+      const form = document.getElementById("orderForm");
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        const name = form.name.value;
+        const email = form.email.value;
+        console.log(`Order Received! Name: ${name}, Email: ${email}`);
+        alert("Thank you for your order!");
+      });
+    </script>
+  </body>
+</html>

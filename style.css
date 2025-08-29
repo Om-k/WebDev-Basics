@@ -1,0 +1,56 @@
+/* External CSS */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fffafc;
+}
+
+.hero {
+  background-image: url("./flowerShop.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.form-section input[type="text"],
+.form-section input[type="email"] {
+  padding: 10px;
+  margin: 8px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.form-section button {
+  padding: 10px 20px;
+  background-color: #ff6699;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.form-section button:hover {
+  background-color: #e65c87;
+}
+
+.container {
+  background: #fff;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+@media screen and (min-width: 100px) and (max-width: 900px) {
+  .container {
+    margin: 30px;
+  }
+}
